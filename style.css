@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+}
+.Container_Menu{ 
+  flex-wrap: wrap;
+   display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;  
+  gap: 20px;
+  padding: 20px 60px;
+  text-align: center;
+  background-image: url(../Assignment/Images/bannervip1.png);
+  background-position: center 70%;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+  flex-basis: 100%;
+  margin-bottom: -100px;
+}
+.ten h1 {
+  font-size: 28px;
+  white-space: nowrap;
+  font-family: "Cinzel", sans-serif;
+  padding-left: 50px;
+  padding-bottom: 500px;
+  padding: auto;
+  margin: 0;
+}
+.search{
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 500px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    width: 45%;
+    border: none;
+}
+.sellUs{
+    padding-bottom: 500px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "inter", sans-serif;
+    padding-right: 30px;
+}
+.login{
+    padding: 8px 18px;
+  border: 1.33px solid rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  background: transparent;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+    align-items: center;
+    display: flex;
+    margin-bottom: 500px;
+}
+.login:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.menu{
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    margin-top: -990px;
+    width: 200%; 
+    border-width: 100%;
+    font-family: "Catamaran",sans-serif;
+    font-weight: bold;
+    word-spacing: 15px;
+    border-radius: 10px;
+}
+
+.lux{
+  font-family: "Cinzel",sans-serif;
+  font-weight: bold;
+  font-size: 27px;
+  margin-right: 750px;
+  margin-bottom: -1px;
+  
+}
+.expole{
+  font-family: "inter", sans-serif;
+  margin-bottom: 100px;
+  font-weight: bold; 
+  margin-right: 500px ; 
+  text-align: left;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.Container_brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.brand{
+  font-size: 40px;
+  font-family: "Cinzel", sans-serif;
+  padding-left: 70px;
+  margin-right: auto;
+  margin-top: 160px
+  
+} 
+.brand_images{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap; 
+  gap: 20px;
+  padding: 80px;
+  transition: 0.6s ease-in-out;
+}
+.img{
+  width: 140px;
+  height: 140px;               
+  border: 1.3px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  transition: 0.5s ease-in-out;
+}
+.img img{
+    max-width: 90%;
+    max-height: 70%;
+    object-fit: contain;
+}
+.img10 img{
+  max-width: 120%;
+  position: relative;
+  right: 18px;
+  
+}
+.img:hover{
+  cursor: pointer;
+  transform: translateX(1px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+}
+.container_featured{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.featured{
+  font-size: 30px;
+  font-family: "Cinzel", sans-serif;
+  position: absolute;
+  left: 70px;
+  margin-bottom: 700px;
+} 
+.car{
+  width: 350px;
+  height: 100%;
+  border: 1.33px solid #eee;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  transition: 0.7s ease-in-out;
+}
+.imgcar img{
+  max-width: 100%;
+  max-height: 100%;
+  border-bottom: 3px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.car img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.featured_car{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap; 
+  gap: 40px;
+  padding: 50px;
+  margin-left: 20px;
+  transition: 0.6s ease-in-out;
+  position: relative;
+  top: auto;
+}
+.imgcar3 img{
+  width: 100%;
+  height: 200px;
+}
+.imgcar6 img{
+  width: 100%;
+   height: 220px;
+}
+.imgcar4 img{
+  width: 100%;
+   height: 220px;
+}
+.namecar, .location, .price{
+  padding-left: 10px;
+  font-size: 16px;
+  font-family:"Inter", sans-serif;
+  line-height: 21px;
+}
+.location, .namecar{
+  font-size: 11.5px;
+}
+.location{
+  color: gray;
+}
+.price{
+  padding-top: 10px;
+}
+.car:hover{
+  cursor: pointer;
+  transform: translateX(1px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
